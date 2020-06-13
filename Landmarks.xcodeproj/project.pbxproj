@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E776DCE24933FAF008FEA91 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E776DCD24933FAF008FEA91 /* turtlerock.jpg */; };
+		0E776DD024934028008FEA91 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E776DCF24934028008FEA91 /* CircleImage.swift */; };
+		0E776DD524949754008FEA91 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E776DD424949754008FEA91 /* MapView.swift */; };
 		0EBD7145248FD5C1009E1D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD7144248FD5C1009E1D67 /* AppDelegate.swift */; };
 		0EBD7147248FD5C1009E1D67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD7146248FD5C1009E1D67 /* SceneDelegate.swift */; };
 		0EBD7149248FD5C1009E1D67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD7148248FD5C1009E1D67 /* ContentView.swift */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E776DCD24933FAF008FEA91 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = turtlerock.jpg; path = ../../Downloads/CreatingAndCombiningViews/Resources/turtlerock.jpg; sourceTree = "<group>"; };
+		0E776DCF24934028008FEA91 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0E776DD324934107008FEA91 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
+		0E776DD424949754008FEA91 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0EBD7141248FD5C1009E1D67 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBD7144248FD5C1009E1D67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EBD7146248FD5C1009E1D67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +90,7 @@
 				0EBD715A248FD5C4009E1D67 /* LandmarksTests */,
 				0EBD7165248FD5C4009E1D67 /* LandmarksUITests */,
 				0EBD7142248FD5C1009E1D67 /* Products */,
+				0E776DCD24933FAF008FEA91 /* turtlerock.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +111,9 @@
 				0EBD7146248FD5C1009E1D67 /* SceneDelegate.swift */,
 				0EBD7148248FD5C1009E1D67 /* ContentView.swift */,
 				0EBD714A248FD5C4009E1D67 /* Assets.xcassets */,
+				0E776DD324934107008FEA91 /* turtlerock.jpg */,
+				0E776DCF24934028008FEA91 /* CircleImage.swift */,
+				0E776DD424949754008FEA91 /* MapView.swift */,
 				0EBD714F248FD5C4009E1D67 /* LaunchScreen.storyboard */,
 				0EBD7152248FD5C4009E1D67 /* Info.plist */,
 				0EBD714C248FD5C4009E1D67 /* Preview Content */,
@@ -240,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E776DCE24933FAF008FEA91 /* turtlerock.jpg in Resources */,
 				0EBD7151248FD5C4009E1D67 /* LaunchScreen.storyboard in Resources */,
 				0EBD714E248FD5C4009E1D67 /* Preview Assets.xcassets in Resources */,
 				0EBD714B248FD5C4009E1D67 /* Assets.xcassets in Resources */,
@@ -268,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EBD7145248FD5C1009E1D67 /* AppDelegate.swift in Sources */,
+				0E776DD024934028008FEA91 /* CircleImage.swift in Sources */,
+				0E776DD524949754008FEA91 /* MapView.swift in Sources */,
 				0EBD7147248FD5C1009E1D67 /* SceneDelegate.swift in Sources */,
 				0EBD7149248FD5C1009E1D67 /* ContentView.swift in Sources */,
 			);

@@ -10,7 +10,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            MapView()
+                .edgesIgnoringSafeArea(.top)
+                .frame(height: 300)
+            
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            VStack(alignment: .leading) {
+                Text("Sacred Rim")
+                    .font(.title)
+                HStack {
+                    Text("Wind River Mountain Range")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("Wyoming")
+                        .font(.subheadline)
+                }
+                    
+            }
+            .padding()
+            
+            Spacer()
+        }
     }
 }
 
