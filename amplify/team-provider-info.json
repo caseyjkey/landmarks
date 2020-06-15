@@ -10,6 +10,13 @@
             "StackName": "amplify-amplifyiosworkshop-dev-195134",
             "StackId": "arn:aws:cloudformation:us-east-1:568751666443:stack/amplify-amplifyiosworkshop-dev-195134/c1cf40c0-aeaa-11ea-ae4f-0e794c84352f",
             "AmplifyAppId": "drjzo1ch7138u"
+        },
+        "categories": {
+            "auth": {
+                "amplifyiosworkshop8129a768": {
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
         }
     }
 }
